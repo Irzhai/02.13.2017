@@ -1,0 +1,57 @@
+Html taglarinin analiz olunmasi;
+1)<doctype>=Bir documentin definnitionu olaraq verilir.Yeri en basdadir
+2)<html>=butun yazdigimiz web projenin main strukturunu <html> kodu qurur.
+3)<tittle>=meselen chromda yeni sehife acanda sol yuxari kuncde tiitle gorsenir meselen:<tittle>xos gelmisiniz</tittle>
+4)<body>Butun kodumuzu demek olarki burada yaziriq.Burada esasen browsere vermek istedigimiz kodlari yaziriq.
+5)<h1>En boyuk yazi<h2>ondan az<h3>ondan az<h4>ondan az<h5>ondan az<h6>Lap lap kicik yazi novu
+6)<p>=Bunun icinde biz istedigimiz yazini yaza bileriK.Bize ozu yazi novunu verecek.
+7)<hr>=Setirin altindan xett cekmek ucun istifade olunur
+
+Indi ise basqa html taglarini yazacam amma en cox istifade olanini cunki isitifade olunmayanlari cox indan isifade etmir.Amma yenede men bilirem hamisini.
+1)<b>=Sozleri bold derecesinde yazir yeniki qara qara yazir<b>....<b>
+2)<blockquote>=Wikipediadan goturduyumuz melumati bunun icinde yaziriq.
+3)<i>=Sozu saquli yeniki mayilli yazir.
+4)<u>=Altindan xett cekir.
+5)<q>Dirnaqin icinde yazir
+6)<small>=Kicik yazir
+7)<strong>=Bu ise hansisa muhum melumat olanda yaziriq
+8)<var>=Mayilli yazir
+9)<br>Setiri alta veriri coxlu novleri var:</br>,<br/>,<br> ve s.
+
+Html de inputlar(lazim olanlari Amma hamisini bilirem)
+1)<form>Bunun icinde bizinput tagi yaziriq input tagida bize icinde neyse yazmagimiz ucun komek edir.
+2)<input>Bunun icinde biz ne isteyirikse yaza bilerik
+3)<textarea>Inputun bir yazi novudur.Icinde iri hecmli metnler yaza bilirik.
+4)<button>Button yazilanda bir knopka kimi bir yer cixir ora basanda php ve java script vasitesile oz islemimizi goruruk.
+5)<lable>Indi ise geldik labela.Bu label cox komek edici bir tagdir meselen:Men inputun qabainda yeniki inputdan once <label for="salam">Bele bir kod yaziriq buradaki for asagida olan inputun id sine baglanir.
+Sonrada inputun qabaginda bir ad kimi yazilir Meselen:<label for="name">name</label
+ <input type="radio" name="gender" id="name" value="Name">
+Html de sekil taglari:
+1)<img>=Normal sekili icine elave edirik
+2)<figure>=Fiqur ucun
+Html de audio/video
+1)<audio>Ses kontentlerinde istifade olunur
+2)<source>Mnebe kimi istifaade  olunur.
+3)<video>bu ise en cox istifade olunaninidir.icinde videonun kompdaki url sini yaziriq ve oda bunu islemleyir bize gosterir.
+Html de link taglari
+1)<a>=Icinde linki yaziriq
+2)<link>Icinde a yazilir esasen link ucuj istifade edilir.
+Html de listler
+1)<ul>Bu tagin icinde esasen li yazilir ve ul tagida li leri bir box kimi saxlayir
+2)<li>Ul in icinde yazilir esasen list yazerken istifade olunur
+Html de tabllar
+Html de tableler esasen istifade olunmur bunun yerine en cox <div> tagindan istifade olunur
+1)<table>Tabllelarda istifade olunur
+2)<th>Tableda BASda isitafde olunurn basi yazmaq ucun
+3)<tr>Row lari teqdim edir
+4)<td>Uzunluqlrda yazilacaq seyleri gosterir
+Html de metalar
+1)Meta=Htmlde metadata olaraq istifade olunur meselen:<meta charset="Utf-8">
+2)<Head>Bu tag bodyden sonra cox istifade olunan tagdir.Bu tagda <style>,Sehifelere qosulmalari ede bilerik.
+
+
+
+
+
+
+Programlasdirma dilleri dedikde bizim aglimiza ilk once css gelir.Biz hansisa bir projenin web terefini yigmaq isteyirikse biz ilk once:html,css,bootstrap,javascript,php,laravel,sess,lass ve s kimi vardir.
